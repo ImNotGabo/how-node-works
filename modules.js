@@ -14,3 +14,8 @@ console.log(calculator1.add(2, 5));
 // Destructured
 const { add, multiply, divide } = require('./test-module-2');
 console.log(multiply(5, 5));
+
+// caching
+require('./test-module-3')();
+require('./test-module-3')();
+require('./test-module-3')();
